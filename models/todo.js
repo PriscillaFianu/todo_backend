@@ -22,7 +22,7 @@ const todoSchema = new Schema({
     },
     completed:{
         type:Boolean,
-        required:true,
+        required:true
     }
  }, {
 timestamps:true,
